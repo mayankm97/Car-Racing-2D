@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/road_0"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Car Racer 2d"
+        android:background="#5A5C62"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/ready"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLay"
+        android:layout_centerInParent="true"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/ready"
+        android:layout_margin="20dp"
+        android:background="#484444"
+        android:layout_centerInParent="true"
+        android:outlineSpotShadowColor="@color/black"
+        android:id="@+id/volumeCtrl"
+        android:src="@drawable/baseline_volume_up_24"/>
+
+</RelativeLayout>
